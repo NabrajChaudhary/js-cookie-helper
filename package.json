@@ -1,0 +1,39 @@
+{
+  "name": "js-cookie-helper",
+  "version": "1.0.3",
+  "description": "this is package to use cookie",
+  "main": "dist/index.js",
+  "type": "module",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NabrajChaudhary/js-cookie-helper.git"
+  },
+  "keywords": [
+    "cookie",
+    "js-cookie",
+    "javasript",
+    "cookie",
+    "react-cookie"
+  ],
+  "author": "Nabraj Chaudhary",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NabrajChaudhary/js-cookie-helper/issues"
+  },
+  "homepage": "https://github.com/NabrajChaudhary/js-cookie-helper#readme",
+  "devDependencies": {
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/react": "^18.3.8",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "rollup": "^4.22.1",
+    "tslib": "^2.7.0",
+    "typescript": "^5.6.2"
+  }
+}
